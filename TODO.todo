@@ -1,4 +1,4 @@
-14Nisser TODO:
+14Nisser:
   Gameplay:
     ✔ Bubble Bobble(ish):
       Get the gnomes out of the bottles. 14 gnomes. one in each bottle. each bottle is a level. 
@@ -24,7 +24,6 @@
      ☐ Hops
      ☐ Malt
     Levels:
-     ☐ 
      ☐ One for each bottle.
      ☐ Each bottle is a different brew (IPA,Ale,Stout,etc.)
      ☐ Background color match bottle color
@@ -41,4 +40,7 @@
        ☐ Yeast attack
        ☐ Damage received
        ☐ Death
-       ☐ Win
+       ☐ Win/level complete
+
+   TODO:
+    ☐ 
