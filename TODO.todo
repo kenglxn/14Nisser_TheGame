@@ -46,9 +46,13 @@
     Minimum Viable Product:
      ☐ Single level
      ☐ Player animation (nisse)
+       ☐ create 8bit nisse sprite w/ sheet
      ☐ Enemy animation (yeast)
+       ☐ create 8bit yeast sprite w/ sheet
      ☐ Bottle
+       ☐ create 8bit background collision sprite sheet (bottle walls, sediment, bottleneck, bottletop, bottlecap? (burst on win?))
      ☐ Bubbles
+       ☐ create 8bit bubble sprite w/ sheet
      ☐ You won!/Game Over
     V2:
      ☐ Add points to level
