@@ -3,7 +3,7 @@ Quintus.Player = function(Q) {
     init: function (p) {
       this._super(p, {
         sheet: "player",
-        jumpSpeed: -300,
+        jumpSpeed: -500,
         speed: 300
       });
       this.add("2d, platformerControls");

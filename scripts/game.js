@@ -24,7 +24,11 @@ window.addEventListener('load',function(e) {
   Q.setImageSmoothing(false);
 
   Q.scene("level", function (stage) {
+    var player;
     Q.stageTMX("map.tmx", stage);
+
+    player = Q("Player").first();
+    stage.add("viewport").follow(player, { x: true, y: true});
   });
 
   Q.loadTMX("map.tmx, sprites.json, spritesheet.png", function () {
