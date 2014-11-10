@@ -15,7 +15,7 @@
        ☐ About to burst
        ☐ Bursting
      ☐ Gnome
-       ☐ Standing
+       ✔ Standing @done (14-11-10 20:53)
        ☐ Jumping
        ☐ Hurt (--health)
        ☐ Dead (Game Over)
@@ -46,7 +46,7 @@
     Minimum Viable Product:
      ☐ Single level
      ☐ Player animation (nisse)
-       ☐ create 8bit nisse sprite w/ sheet
+       ✔ create 8bit(ish) nisse sprite w/ sheet @done (14-11-10 20:54)
      ☐ Enemy animation (yeast)
        ☐ create 8bit yeast sprite w/ sheet
      ☐ Bottle

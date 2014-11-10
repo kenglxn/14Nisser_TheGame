@@ -4,8 +4,8 @@ window.addEventListener('load',function(e) {
     .include("Player")
     .setup({
       //TODO: 1280x720|320x180
-      width: 320, 
-      height: 180,
+      width: 1280, 
+      height: 720,
       maximize: true,
       scaleToFit: true
     })
@@ -31,7 +31,7 @@ window.addEventListener('load',function(e) {
     player = Q("Player").first();
     stage.add("viewport").follow(player, { x: true, y: true});
 
-    
+
   });
 
   Q.loadTMX("map.tmx, sprites.json, spritesheet.png", function () {
