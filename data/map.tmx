@@ -10,6 +10,12 @@
     <property name="Class" value="Player"/>
    </properties>
   </tile>
+  <tile id="5">
+   <properties>
+    <property name="Class" value="Enemy"/>
+    <property name="sheet" value="enemy"/>
+   </properties>
+  </tile>
  </tileset>
  <layer name="background" width="20" height="25">
   <properties>
@@ -594,12 +600,32 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
+   <tile gid="27"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="27"/>
+   <tile gid="27"/>
+   <tile gid="27"/>
+   <tile gid="27"/>
+   <tile gid="27"/>
+   <tile gid="27"/>
+   <tile gid="27"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="27"/>
+   <tile gid="27"/>
+   <tile gid="27"/>
+   <tile gid="27"/>
+   <tile gid="27"/>
+   <tile gid="27"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -622,47 +648,7 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
    <tile gid="27"/>
-   <tile gid="27"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="27"/>
-   <tile gid="27"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
    <tile gid="27"/>
    <tile gid="27"/>
    <tile gid="0"/>
@@ -690,13 +676,10 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="27"/>
-   <tile gid="27"/>
-   <tile gid="27"/>
-   <tile gid="27"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
+   <tile gid="27"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -704,23 +687,6 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="27"/>
-   <tile gid="27"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="27"/>
-   <tile gid="27"/>
-   <tile gid="27"/>
-   <tile gid="27"/>
-   <tile gid="27"/>
-   <tile gid="27"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="27"/>
@@ -730,15 +696,55 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
+   <tile gid="27"/>
+   <tile gid="27"/>
+   <tile gid="27"/>
+   <tile gid="27"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
+   <tile gid="27"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
+   <tile gid="27"/>
+   <tile gid="27"/>
    <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="27"/>
+   <tile gid="27"/>
+   <tile gid="27"/>
+   <tile gid="27"/>
+   <tile gid="27"/>
+   <tile gid="27"/>
+   <tile gid="27"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="27"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="27"/>
+   <tile gid="27"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="27"/>
+   <tile gid="27"/>
+   <tile gid="27"/>
+   <tile gid="27"/>
+   <tile gid="27"/>
+   <tile gid="27"/>
+   <tile gid="27"/>
+   <tile gid="27"/>
+   <tile gid="27"/>
+   <tile gid="27"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -1536,5 +1542,10 @@
  </layer>
  <objectgroup name="entities">
   <object gid="261" x="128" y="1472"/>
+  <object gid="266" x="831.256" y="253.395"/>
+  <object gid="266" x="193.116" y="255.256"/>
+  <object gid="266" x="64.7442" y="701.767"/>
+  <object gid="266" x="766.14" y="640.372"/>
+  <object gid="266" x="1153.12" y="958.512"/>
  </objectgroup>
 </map>

@@ -1,7 +1,7 @@
 window.addEventListener('load',function(e) {
   var Q = window.Q = Quintus({development: true})
     .include("Scenes, Sprites, 2D, Input, Touch, UI, TMX, Audio")
-    .include("Player")
+    .include("Player, Enemy")
     .setup({
       //TODO: 1280x720|320x180
       width: 1280, 
