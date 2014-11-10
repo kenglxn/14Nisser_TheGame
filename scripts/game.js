@@ -6,7 +6,8 @@ window.addEventListener('load',function(e) {
       //TODO: 1280x720|320x180
       width: 320, 
       height: 180,
-      maximize: true
+      maximize: true,
+      scaleToFit: true
     })
     .controls()
     .touch();
@@ -23,16 +24,18 @@ window.addEventListener('load',function(e) {
 
   Q.setImageSmoothing(false);
 
-  Q.scene("level", function (stage) {
+  Q.scene("level1", function (stage) {
     var player;
     Q.stageTMX("map.tmx", stage);
 
     player = Q("Player").first();
     stage.add("viewport").follow(player, { x: true, y: true});
+
+    
   });
 
   Q.loadTMX("map.tmx, sprites.json, spritesheet.png", function () {
     Q.compileSheets("spritesheet.png", "sprites.json");
-    Q.stageScene("level");
+    Q.stageScene("level1");
   });
 });

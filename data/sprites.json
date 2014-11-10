@@ -1,3 +1,4 @@
 { 
-  "player": { "sx": 7, "sy": 7, "tilew": 72, "tileh": 72, "w": 440, "h": 440 }
+  "player": { "sx": 7, "sy": 7, "tilew": 64, "tileh": 64, "w": 440, "h": 440 },
+  "enemy": { "sx": 7, "sy": 263, "tilew": 64, "tileh": 64, "w": 440, "h": 440 }
 }
