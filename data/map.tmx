@@ -751,7 +751,6 @@
    <tile gid="0"/>
    <tile gid="27"/>
    <tile gid="27"/>
-   <tile gid="27"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -769,11 +768,12 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="27"/>
-   <tile gid="27"/>
+   <tile gid="0"/>
    <tile gid="27"/>
    <tile gid="27"/>
-   <tile gid="0"/>
+   <tile gid="27"/>
+   <tile gid="27"/>
+   <tile gid="27"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -1544,8 +1544,8 @@
   <object gid="261" x="128" y="1472"/>
   <object gid="266" x="831.256" y="253.395"/>
   <object gid="266" x="193.116" y="255.256"/>
-  <object gid="266" x="64.7442" y="701.767"/>
   <object gid="266" x="766.14" y="640.372"/>
   <object gid="266" x="1153.12" y="958.512"/>
+  <object gid="266" x="64.7442" y="768.744"/>
  </objectgroup>
 </map>
