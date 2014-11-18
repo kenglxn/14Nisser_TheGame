@@ -16,6 +16,12 @@
     <property name="sheet" value="enemy"/>
    </properties>
   </tile>
+  <tile id="10">
+   <properties>
+    <property name="Class" value="FallingEnemy"/>
+    <property name="sheet" value="falling-enemy"/>
+   </properties>
+  </tile>
  </tileset>
  <layer name="background" width="20" height="25">
   <properties>
@@ -1354,7 +1360,7 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="27"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -1547,5 +1553,7 @@
   <object gid="266" x="766.14" y="640.372"/>
   <object gid="266" x="1153.12" y="958.512"/>
   <object gid="266" x="64.7442" y="768.744"/>
+  <object gid="271" x="833.116" y="897.116"/>
+  <object gid="271" x="129.86" y="768.744"/>
  </objectgroup>
 </map>

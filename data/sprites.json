@@ -1,4 +1,5 @@
 { 
   "player": { "sx": 7, "sy": 7, "tilew": 64, "tileh": 64, "w": 440, "h": 440 },
-  "enemy": { "sx": 7, "sy": 85, "tilew": 64, "tileh": 64, "w": 440, "h": 440 }
+  "enemy": { "sx": 7, "sy": 85, "tilew": 64, "tileh": 64, "w": 440, "h": 440 },
+  "falling-enemy": { "sx": 7, "sy": 164, "tilew": 64, "tileh": 64, "w": 440, "h": 440 }
 }

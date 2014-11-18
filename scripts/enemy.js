@@ -10,10 +10,17 @@ Quintus.Enemy = function(Q) {
       });
       entity.on("bump.top", function (collision) {
         if (collision.obj.isA("Player")) {
-          collision.obj.p.vy = -250;
+          collision.obj.p.vy = -450;
           this.destroy();
         }
       });
+    }
+  });
+
+  Q.Sprite.extend("FallingEnemy", {
+    init: function (p) {
+      this._super(p, { vx: -100, defaultDirection: "right" });
+      this.add("2d, aiBounce, commonEnemy");
     }
   });
   
@@ -36,7 +43,16 @@ Quintus.Enemy = function(Q) {
         } else {
           this.p.flip = false;
         }
-        this.p.vx = -this.p.vx;
+        if (!this.p.jumped) {
+          this.p.jumped = true;
+          this.p.oldVx = this.p.vx;
+          this.p.vx = 0;
+          this.p.vy = -450; 
+        } else {
+          this.p.vy = 0; 
+          this.p.jumped = false;
+          this.p.vx = -this.p.oldVx;
+        }
       }
     }
   });
