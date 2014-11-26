@@ -38,7 +38,7 @@ Quintus.Enemy = function(Q) {
         nextTile = true;
       }
       if (!nextTile && ground) {
-        if ((dirX > 0 && this.p.defaultDirection === "right") || (dirX < 0 && this.p.defaultDirection === "left")) {
+        if ((dirX < 0 && this.p.defaultDirection === "right") || (dirX > 0 && this.p.defaultDirection === "left")) {
           this.p.flip = "x";
         } else {
           this.p.flip = false;
