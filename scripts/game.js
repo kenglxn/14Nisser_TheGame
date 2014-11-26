@@ -1,26 +1,24 @@
 window.addEventListener('load',function(e) {
-  var Q = window.Q = Quintus({development: true})
-    .include("Scenes, Sprites, 2D, Input, Touch, UI, TMX, Audio")
-    .include("Player, Enemy")
-    .setup({
-      //TODO: 1280x720|320x180
-      width: 1280, 
-      height: 720,
-      maximize: true,
-      scaleToFit: true
-    })
-    .controls()
-    .touch();
+  var ww = window.innerWidth, 
+        wh = window.innerHeight,
+        landscape = ww > wh ,
+        controls = [['left','<' ],['right','>' ],[],['action','^']],
+        Q = window.Q = Quintus({development: true});
+    
+    Q.include("Scenes, Sprites, 2D, Input, Touch, UI, TMX, Audio")
+      .include("Player, Enemy")
+      .setup({
+        width:   landscape ? ww : ww / 2,
+        height:  landscape ? window.innerHeight : window.innerHeight / 2,
+        scaleToFit: true
+      });
 
+  if (landscape) {
+    controls = [['left','<' ],['right','>' ],[],[],[],[],[],['action','^']];
+  }
   // for this to take effect, can not call controls() ^^
-  Q.input.touchControls({
-    controls:  [ 
-      ['left','<' ],
-      ['right','>' ],
-      [],
-      ['action','^']
-     ]
-  });
+  Q.input.touchControls({controls:  controls});
+  Q.input.keyboardControls();
 
   Q.setImageSmoothing(false);
 
