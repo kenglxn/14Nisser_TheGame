@@ -5,7 +5,7 @@ window.addEventListener('load',function(e) {
         controls = [['left','<' ],['right','>' ],[],['action','^']],
         Q = window.Q = Quintus({development: true});
     
-    Q.include("Scenes, Sprites, 2D, Input, Touch, UI, TMX, Audio")
+    Q.include("Scenes, Sprites, Anim, 2D, Input, Touch, UI, TMX, Audio")
       .include("Player, Enemy")
       .setup({
         width:   landscape ? ww : ww / 2,

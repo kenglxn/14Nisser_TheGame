@@ -6,6 +6,7 @@ Quintus.Enemy = function(Q) {
       entity.on("bump.left, bump.right, bump.bottom", function (collision) {
         if (collision.obj.isA("Player")) {
           console.log("player damage");
+          // TODO: hit player with animation
         }
       });
       entity.on("bump.top", function (collision) {
