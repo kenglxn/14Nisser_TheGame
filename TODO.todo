@@ -1,35 +1,25 @@
 14Nisser:
   Gameplay:
-    ✔ Bubble Bobble(ish):
-      Get the gnomes out of the bottles. 14 gnomes. one in each bottle. each bottle is a level. 
-      Use the rising bubbles to get out. avoid getting caught in the bunnfall(sediment?). Watch out for bursting bubbles and yeast particles.
-      Collect hops and malt to gain points and lives.
+    ✔ 2d Platformer (Mario-ish): Make your way out of the bottle, collecting hops and sugar(from malt) and killing germs and feeding yeast on your way.
   Stack/Frameworks:
     ✔ HMTL5 @done (14-11-07 11:02)
     ✔ Quintus @done (14-11-07 11:02)
     ✔ Tiled @done (14-11-07 11:02)
   Art:
     Sprites:
-     ☐ Bubbles
-       ☐ Normal
-       ☐ About to burst
-       ☐ Bursting
-     ☐ Gnome
-       ✔ Standing @done (14-11-10 20:53)
-       ☐ Jumping
-       ☐ Hurt (--health)
-       ☐ Dead (Game Over)
+     ☐ Levels
+     ☐ Bubbles on bottle wall (particle system)
+     ☐ Germs
      ☐ Yeast
-       ☐ Chomping
      ☐ Hops
-     ☐ Malt
+     ☐ Sugar
     Levels:
      ☐ One for each bottle.
      ☐ Each bottle is a different brew (IPA,Ale,Stout,etc.)
      ☐ Background color match bottle color
-     ☐ Perhaps change charactiristics of hops, malt and bubbles to match the brew of the bottle.
+     ☐ Perhaps change characteristics of sprites according to bottle.
     Game stuff:
-     ☐ How to play screen
+     ☐ Start screen with info on gameplay
      ☐ Level chooser. Player can choose any level.
      ☐ High score per level.
      ☐ High score total/(upon completion?).
