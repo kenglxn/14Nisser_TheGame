@@ -226,7 +226,7 @@ Q.Sprite.extend("Player",{
     this.p.checkDoor = false;
 
 
-    if(this.p.y > 1000) {
+    if(this.p.y > 1200) {
       this.stage.unfollow();
     }
 
